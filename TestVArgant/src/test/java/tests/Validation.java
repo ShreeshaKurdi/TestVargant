@@ -25,7 +25,7 @@ public class Validation extends BasePage{
 		IMDBPage ip = new IMDBPage(driver);		
 		String imdbCountry = ip.getImdbCountry();
 		String imdbDate = ip.getImdbDate();
- 
+
 		Assert.assertEquals(wikiCountry, imdbCountry);	
 		Assert.assertEquals(wikiDate, imdbDate);
 
