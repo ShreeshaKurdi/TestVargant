@@ -28,9 +28,5 @@ public class Validation extends BasePage{
  
 		Assert.assertEquals(wikiCountry, imdbCountry);	
 		Assert.assertEquals(wikiDate, imdbDate);
-
-
-
-
 	}
 }
